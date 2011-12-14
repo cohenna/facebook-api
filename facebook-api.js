@@ -11,5 +11,5 @@ function testusers(appid, appsecret) {
 if (typeof module == "object" && typeof require == "function") {
     exports.raw = raw;
     exports.user = require('./lib/user.js')(raw);
-    exports.testusers = require('./lib/testusers.js')(raw);;
+    exports.testusers = require('./lib/testusers.js')(raw);
 }
